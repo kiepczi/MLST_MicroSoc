@@ -1,4 +1,3 @@
-# **Improved and Extended Multilocus Sequence Typing (MLST) Scheme for the *Streptomyces* reveals Complex Taxonomic Structure** 
 **Angelika Kiepas, Prof Paul A Hoskisson, Dr Leighton Pritchard**
 
 Strathclyde Insitute of Pharmacy and Biomedical Sciences, University of Strathclyde, 161 Cathedral Street, Glasgow G4 0RE, Scotland, UK
@@ -7,7 +6,7 @@ Strathclyde Insitute of Pharmacy and Biomedical Sciences, University of Strathcl
 
 
 ## **Overview**
-Welecome to MLST_MicroSoc_2022 repository and thank you for expressing your interest in our reserach! :wave: :microscope: :woman_technologist: :man_technologist: :dna: :microscope: 
+Welecome to MLST_MicroSoc_2022 repository and thank you for expressing your interest in our reserach! :wave: :microscope: :relaxed: :woman_technologist: 
 
 
 This is the repository where you can find supplementary data for poster presented at the Microbiology Society Annual Conference 2022. 
