@@ -17,10 +17,10 @@ All interactive graphs represent minimum spanning trees with 852 sequence types 
 
 
 - #### **pubMLST vs new *Streptomyces* sequence types**
-The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable **Streptomyces** genomes, identifying over 600 novel sequence types. To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
+The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
 
 - #### **Streptomyces** sequence type representation in GenBank
-Despite 2276 genomes named as *Streptomyces* were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. You can check out how they are represented throughout our minimum spanning tree [here](docs/MLSTIG_00002.html)!
+Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. You can check out how they are represented throughout our minimum spanning tree [here](docs/MLSTIG_00002.html)!
 
 - #### **Unique genera according to pyANI analysis within each connected component**
 Using [pyani](https://github.com/widdowquinn/pyani) we can determine whether genomes belong to the same candidate species or genus(%ID >≈95%, %coverage >≈50%), and examine their distributions on the minimum spanning tree that you can view [here](docs/MLSTIG_0005.html). Here we present that organisms assigned the same species name in [NCBI](https://www.ncbi.nlm.nih.gov):
