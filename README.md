@@ -6,7 +6,7 @@ Strathclyde Insitute of Pharmacy and Biomedical Sciences, University of Strathcl
 
 
 ## **Overview**
-Welecome to MLST_MicroSoc_2022 repository and thank you for expressing your interest in our reserach! :wave: :microscope: :relaxed: :woman_technologist: 
+Welecome to MLST_MicroSoc_2022 repository and thank you for expressing your interest in our research! :wave: :microscope: :relaxed: :woman_technologist: 
 
 
 This is the repository where you can find supplementary data for poster presented at the Microbiology Society Annual Conference 2022. 
