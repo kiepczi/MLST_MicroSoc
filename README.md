@@ -2,6 +2,7 @@
 **Angelika Kiepas, Prof Paul A Hoskisson, Dr Leighton Pritchard**
 
 Strathclyde Insitute of Pharmacy and Biomedical Sciences, University of Strathclyde, 161 Cathedral Street, Glasgow G4 0RE, Scotland, UK
+
 ***
 
 
@@ -27,9 +28,9 @@ Using [pyani](https://github.com/widdowquinn/pyani) we can determine whether gen
 
 1. May share <95% genome identity suggesting that the should be distinct species. 
 2. Some genomes identified as the same species (>≈95% genome identity) with pyani](https://github.com/widdowquinn/pyani) are found in diconnected minimum spanning tree components. 
-(pyANI [genome identity plot](docs/pyani_analysis/matrix_identity_rimosus.pdf) and [aligment coverage](docs/matrix_coverage_rimosus.pdf))
+(pyANI [genome identity plot](docs/matrix_identity_rimosus.pdf) and [aligment coverage](docs/matrix_coverage_rimosus.pdf))
 3. A single connected component unites two sets of genomes that belong to a distinct candidate genera as less than 50% of their genomes are homologous, by alignment length. 
-(pyANI [genome identity plot](docs/pyani_analysis/matrix_identity_15_1.pdf) and [aligment coverage](docs/pyani_analysis/matrix_coverage_15_1.pdf))
+(pyANI [genome identity plot](docs/matrix_identity_15_1.pdf) and [aligment coverage](docs/matrix_coverage_15_1.pdf))
 
 
 ***
