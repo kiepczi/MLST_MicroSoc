@@ -13,7 +13,7 @@ This is the repository where you can find supplementary data for poster presente
 
 ***
 ## **Interactive representations of minimum spanning trees**
-All interactive graphs represent minimum spanning tree with 852 sequence types and 292 connected components describing all sequences *Streptomyces* genomes, and all sequence types from the pubMLST database. Each node represents a unique sequence type, and each edge corresponds to traversing from one sequence type to other by making up to five marker changes. This divison of *Streptomyces* into 292 components that share no marker alleles with each other implies a set of natural divisions between groups of isolates. 
+All interactive graphs represent minimum spanning trees with 852 sequence types and 292 connected components describing all sequences *Streptomyces* genomes, and all sequence types from the pubMLST database. Each node represents a unique sequence type, and each edge corresponds to traversing from one sequence type to other by making up to five marker changes. This divison of *Streptomyces* into 292 components that share no marker alleles with each other implies a set of natural divisions between groups of isolates. 
 
 
 - #### **pubMLST vs new *Streptomyces* sequence types**
