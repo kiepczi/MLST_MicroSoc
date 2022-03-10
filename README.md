@@ -17,7 +17,7 @@ All interactive graphs represent minimum spanning tree with 852 sequence types a
 
 
 - #### **pubMLST vs new *Streptomyces* sequence types**
-The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable **Streptomyces** genomes, identifying over 600 novel sequence types. To view how they map onto minimum spanning tree simply click ![here](./docs/interactive_graphs/MLSTIG_00003.html)!
+The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable **Streptomyces** genomes, identifying over 600 novel sequence types. To view how they map onto minimum spanning tree simply click [here](docs/interactive_graphs/MLSTIG_00003.html)!
 
 - #### **Streptomyces** sequence type representation in GenBank
 Despite 2276 genomes named as *Streptomyces* were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. You can check out how they are represented throughout our minimum spanning tree [here](interactive_graphs/MLSTIG_00002.html)!
