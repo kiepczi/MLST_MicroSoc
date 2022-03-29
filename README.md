@@ -54,17 +54,27 @@ The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided 
 <iframe src="docs/MLSTIG_00003.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="800"
+    height="700"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
 
-To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
-
 - #### **Streptomyces** sequence type representation in GenBank
-Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. You can check out how they are represented throughout our minimum spanning tree [here](docs/MLSTIG_00002.html)!
+Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. 
+
+<iframe src="docs/MLSTIG_00002.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="700"
+    scrolling="yes"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+
+
 
 - #### **Unique genera according to pyANI analysis within each connected component**
 Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether genomes belong to the same candidate species or genus(%ID >≈95%, %coverage >≈50%), and examine their distributions on the minimum spanning tree that you can view [here](docs/MLSTIG_0005.html). Here we present that organisms assigned the same species name in [NCBI](https://www.ncbi.nlm.nih.gov):
