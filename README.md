@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="200" src="assets/images/strath_logo.svg">
+  <img width="80" src="assets/images/strath_logo.svg">
 </p>
 
 ## **Overview**
@@ -8,26 +8,48 @@ Welecome to MLST_MicroSoc_2022 repository and thank you for expressing your inte
 
 
 This is the repository where you can find supplementary data for poster presented at the Microbiology Society Annual Conference 2022. 
+
+
 ***
 
 ## Introduction
-### Why are *Streptomyces* important?
+### **Why are *Streptomyces* important?**
 
-<img align="right" src="assets/images/comic.svg" width="200">
+<img align="right" src="assets/images/comic.svg" width="400">
 
-  *Streptomyces* species produce over 60% of all clinically-approved bioactive compounds. Counting discoveries of new natural products suggest that *Streptomyces* genomes remain a promising source for novel antibiotics that could help us combat the crisis of antibiotic resistance. 
-  Comparative genomics and pangenomics are powerfull tools for infering genes involved in the synthsis of novel antibiotics from closely related genomic sequences. The contest nature of *Streptomyces* taxonomy means that relying on existng assigned taxa may be misleading for pangenomics.
+The global crisis of antibiotic resistance (AMR) contributes to over 700,000 deaths annually. If left unchecked, AMR will become the leading global cause of death by 2050, killing over 10 million people1. A recent discovery showed that *Streptomyces sp.* SM01 possesses the ability to produce a novel antibiotic picolinamycin with antimicrobial activity against drug-resistant bacterial strains. Additionally, members of the genus *Streptomyces* are prolific producers of a variety important bioactive compounds, accounting for the synthesis of over 80% of all clinically approved bioactive compounds. Interest in *Streptomyces* species significantly increased after discovering their production of the antimicrobial compound streptomycin, and chemotherapy medication actinomycin. Over 650 species in the family of *Streptomycetaceae* have been identified. These are potential reservoirs of novel drugs. Genes involved in synthesis of bioactive compounds can be mined from these bacterial genomes and, as the number of sequenced *Streptomyces* genomes increased in the past decade, this has had a significant beneficial impact on drug discovery. 
+
+A powerful way to discover pharmaceutically-important compounds is to find and identify genes responsible for their synthesis by comparing complete genome sequences of various species. In addition, this approach helps avoid “rediscovery” of known compounds and prioritises compounds with potential novel clinical activity for extensive laboratory work from closely related genomic sequences. However, the exact relationships between *Streptomyces* species are currently poorly defined, and many species are incorrectly named.
 <br clear="left"/>
 
 
+### **Multilocus Sequence Typing**
+Multilocus sequence typing (MLST) is widely used to characterise bacterial species based on allelic differences in a small set of genes. As shown below, unique allele numbers are assigned to each observed variant of one of the genes in the MLST profile to measure DNA sequence variations. When the sequence is different, a new allele number is assigned. The assigned allele numbers are combined into an allelic profile that is used to characterise strains and assign sequence type (ST). 
+<p align="center">
+  <img width="700" src="assets/images/MLST.svg">
+</p>
+
+The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by  comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types (STs; only two new STs were reported since 2016). 
+<br>
+<br>
+With the recent increase in sequenced Streptomyces we wanted to answer the following questions: 
+- How do STs map onto *Streptomyces* taxonomy determined from genome sequences?
+- What does this tell us about the taxonomic structure of *Streptomyces*?
+
+## **Methods**
+- All 2276 available *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov) on the 8th of July 2021.
+- 673 16S rRNA, 813 atpD, 576 gyrB, 890 recA, 873 rpoB and 784 trpB new allele variants were identified with [MLST tool](https://github.com/tseemann/mlst). 
+- *Streptomyces* taxon boundies were assessed with [pyANI](https://github.com/widdowquinn/pyani) (%ID >≈95%, %coverage >≈50%). 
 
 ***
-## **Interactive representations of minimum spanning trees**
+## **Results**
+### **Interactive representations of minimum spanning trees**
 All interactive graphs represent minimum spanning trees with 852 sequence types and 292 connected components describing all sequences *Streptomyces* genomes, and all sequence types from the pubMLST database. Each node represents a unique sequence type, and each edge corresponds to traversing from one sequence type to other by making up to five marker changes. This divison of *Streptomyces* into 292 components that share no marker alleles with each other implies a set of natural divisions between groups of isolates. 
 
 
 - #### **pubMLST vs new *Streptomyces* sequence types**
-The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
+The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. 
+To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
 
 - #### **Streptomyces** sequence type representation in GenBank
 Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. You can check out how they are represented throughout our minimum spanning tree [here](docs/MLSTIG_00002.html)!
