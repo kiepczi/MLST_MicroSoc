@@ -11,8 +11,9 @@ This is the repository where you can find supplementary data for poster presente
 ***
 
 ## Introduction
+### Why *Streptomyces*?
 
-<img align="right" src="assets/images/_comic.pdf" width="200">
+<img align="right" src="assets/images/comic.svg" width="200">
 
   *Streptomyces* species produce over 60% of all clinically-approved bioactive compounds. Counting discoveries of new natural products suggest that *Streptomyces* genomes remain a promising source for novel antibiotics. Comparative genomics and pangenomics are powerfull tools for infering genes involved in the synthsis of novel antibiotics from closely related genomic sequences. The contest nature of *Streptomyces* taxonomy means that relying on existng assigned taxa may be misleading for pangenomics.
 <br clear="left"/>
