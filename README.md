@@ -1,4 +1,4 @@
-
+<div style="text-align: justify">
 <p align="center">
   <img width="200" src="assets/images/strath_logo.svg">
 </p>
@@ -16,7 +16,7 @@ This is the repository where you can find supplementary data for poster presente
 ### **Why are *Streptomyces* important?**
 
 <img align="right" src="assets/images/comic.svg" width="400">
-<div style="text-align: justify">
+
 The global crisis of antibiotic resistance (AMR) contributes to over 700,000 deaths annually. If left unchecked, AMR will become the leading global cause of death by 2050, killing over 10 million people. A recent discovery showed that *Streptomyces sp.* SM01 possesses the ability to produce a novel antibiotic picolinamycin with antimicrobial activity against drug-resistant bacterial strains. Additionally, members of the genus *Streptomyces* are prolific producers of a variety important bioactive compounds, accounting for the synthesis of over 80% of all clinically approved bioactive compounds. Interest in *Streptomyces* species significantly increased after discovering their production of the antimicrobial compound streptomycin, and chemotherapy medication actinomycin. Over 650 species in the family of *Streptomycetaceae* have been identified. These are potential reservoirs of novel drugs. Genes involved in synthesis of bioactive compounds can be mined from these bacterial genomes and, as the number of sequenced *Streptomyces* genomes increased in the past decade, this has had a significant beneficial impact on drug discovery. 
 
 A powerful way to discover pharmaceutically-important compounds is to find and identify genes responsible for their synthesis by comparing complete genome sequences of various species. In addition, this approach helps avoid “rediscovery” of known compounds and prioritises compounds with potential novel clinical activity for extensive laboratory work from closely related genomic sequences. However, the exact relationships between *Streptomyces* species are currently poorly defined, and many species are incorrectly named.
@@ -49,16 +49,10 @@ All interactive graphs represent minimum spanning trees with 852 sequence types 
 
 - #### **pubMLST vs new *Streptomyces* sequence types**
 The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. 
-</div>
 
-<iframe src="docs/MLSTIG_00003.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="2400"
-    scrolling="yes"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
+
+{% include docs/MLSTIG_00003.html %}
+
 
 To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
 
@@ -76,7 +70,7 @@ Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether gen
 
 (pyANI [genome identity plot](docs/matrix_identity_15_1.pdf) and [aligment coverage](docs/matrix_coverage_15_1.pdf))
 
-
+</div>
 
 ***
 If you have any questions please do not hesitate to contact me at <angelika.kiepas@strath.ac.uk>:envelope_with_arrow: :woman_technologist:. 
