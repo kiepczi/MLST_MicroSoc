@@ -1,4 +1,4 @@
-<div style="text-align: justify">
+
 <p align="center">
   <img width="200" src="assets/images/strath_logo.svg">
 </p>
@@ -54,7 +54,7 @@ The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided 
 <iframe src="docs/MLSTIG_00003.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="100%"
+    height="1500"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
