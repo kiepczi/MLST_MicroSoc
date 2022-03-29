@@ -12,7 +12,7 @@ This is the repository where you can find supplementary data for poster presente
 
 ***
 
-## Introduction
+## **Introduction**
 ### **Why are *Streptomyces* important?**
 
 <img align="right" src="assets/images/comic.svg" width="400">
@@ -51,7 +51,14 @@ All interactive graphs represent minimum spanning trees with 852 sequence types 
 The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. 
 
 
-{% include docs/MLSTIG_00003.html %}
+<iframe src="docs/MLSTIG_00003.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="100%"
+    scrolling="yes"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 
 To view how they map onto minimum spanning tree simply click [here](docs/MLSTIG_00003.html)!
@@ -70,7 +77,7 @@ Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether gen
 
 (pyANI [genome identity plot](docs/matrix_identity_15_1.pdf) and [aligment coverage](docs/matrix_coverage_15_1.pdf))
 
-</div>
+
 
 ***
 If you have any questions please do not hesitate to contact me at <angelika.kiepas@strath.ac.uk>:envelope_with_arrow: :woman_technologist:. 
