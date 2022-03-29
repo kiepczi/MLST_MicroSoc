@@ -1,15 +1,23 @@
-**Angelika Kiepas, Prof Paul A Hoskisson, Dr Leighton Pritchard**
 
-Strathclyde Insitute of Pharmacy and Biomedical Sciences, University of Strathclyde, 161 Cathedral Street, Glasgow G4 0RE, Scotland, UK
-
-***
-
+<p align="center">
+  <img width="200" src="assets/images/strath_logo.svg">
+</p>
 
 ## **Overview**
 Welecome to MLST_MicroSoc_2022 repository and thank you for expressing your interest in our research! :wave: :microscope: :relaxed: :woman_technologist: 
 
 
 This is the repository where you can find supplementary data for poster presented at the Microbiology Society Annual Conference 2022. 
+***
+
+## Introduction
+
+<img align="right" src="assets/images/_comic.pdf" width="200">
+
+  *Streptomyces* species produce over 60% of all clinically-approved bioactive compounds. Counting discoveries of new natural products suggest that *Streptomyces* genomes remain a promising source for novel antibiotics. Comparative genomics and pangenomics are powerfull tools for infering genes involved in the synthsis of novel antibiotics from closely related genomic sequences. The contest nature of *Streptomyces* taxonomy means that relying on existng assigned taxa may be misleading for pangenomics.
+<br clear="left"/>
+
+
 
 ***
 ## **Interactive representations of minimum spanning trees**
