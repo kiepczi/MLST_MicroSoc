@@ -54,7 +54,7 @@ The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided 
 <iframe src="docs/MLSTIG_00003.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="1500"
+    height="1000"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
