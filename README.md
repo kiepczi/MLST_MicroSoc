@@ -66,7 +66,7 @@ Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from 
 
 <iframe src="docs/MLSTIG_00002.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="120%"
     height="700"
     scrolling="yes"
     seamless="seamless"
@@ -77,7 +77,22 @@ Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from 
 
 
 - #### **Unique genera according to pyANI analysis within each connected component**
-Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether genomes belong to the same candidate species or genus(%ID >≈95%, %coverage >≈50%), and examine their distributions on the minimum spanning tree that you can view [here](docs/MLSTIG_0005.html). Here we present that organisms assigned the same species name in [NCBI](https://www.ncbi.nlm.nih.gov):
+Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether genomes belong to the same candidate genus(%ID >≈95%, %coverage >≈50%), and examine their distributions on the minimum spanning tree: 
+
+
+<iframe src="docs/MLSTIG_0005.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="120%"
+    height="700"
+    scrolling="yes"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+
+
+
+Here we present that organisms assigned the same species name in [NCBI](https://www.ncbi.nlm.nih.gov):
 
 1. May share <95% genome identity suggesting that the should be distinct species. 
 2. Some genomes identified as the same species (>≈95% genome identity) with [pyANI](https://github.com/widdowquinn/pyani) are found in diconnected minimum spanning tree components. 
