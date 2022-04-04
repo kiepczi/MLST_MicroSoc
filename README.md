@@ -48,46 +48,21 @@ All interactive graphs represent minimum spanning trees with 852 sequence types 
 
 
 - #### **pubMLST vs new *Streptomyces* sequence types**
-The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. 
+The current canonical *Streptomyces* Multilocus Sequence Typing Scheme provided by [pubMLST](https://pubmlst.org) comprises six markers (16S rRNA, atpD, gyrB, recA, rpoB and trpB) and 236 sequence types. We extended the current scheme to include all avaliable *Streptomyces* genomes, identifying over 600 novel sequence types. To view the interactive minimum spannning tree, simply click [here](docs/MLSTIG_00003.html)!
 
 
-<iframe src="docs/MLSTIG_00003.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="120%"
-    height="700"
-    scrolling="yes"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
 
 
 - #### **Streptomyces** sequence type representation in GenBank
-Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. 
+Despite all 2276 avaliable *Streptomyces* genome sequences were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov), 150 pubMLST sequences types were without a representative genome. Click [here](docs/MLSTIG_00002.html) to view the tree.
 
-<iframe src="docs/MLSTIG_00002.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="120%"
-    height="700"
-    scrolling="yes"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
 
 
 
 
 - #### **Unique genera according to pyANI analysis within each connected component**
-Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether genomes belong to the same candidate genus(%ID >≈95%, %coverage >≈50%), and examine their distributions on the minimum spanning tree: 
+Using [pyANI](https://github.com/widdowquinn/pyani) we can determine whether genomes belong to the same candidate genus(%ID >≈95%, %coverage >≈50%), and examine their distributions on the minimum spanning tree. The interactive minimum spanning tree is avaliable [here](docs/MLSTIG_0005.html)
 
-
-<iframe src="docs/MLSTIG_0005.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="120%"
-    height="700"
-    scrolling="yes"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
 
 
 
